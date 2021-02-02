@@ -1,0 +1,49 @@
+.navbar{
+    background-color: white;
+    .navbar-brand{
+        img{
+            max-width: 150px;
+        }
+    }
+
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                 
+            }
+        }
+    }
+
+    .cart-login{
+        list-style: none;
+        .top-cart{
+            border-right: 1px solid #d9d9d9;
+            margin-right: 2px;
+             i{
+                padding: 0;
+                border: none;
+                color: #5a5a5a;
+                margin: 0px 15px;
+                background-color: transparent;
+                transition: 0.3s all ease-in-out;
+                &:hover{
+                    color:#0000fe;
+                }
+            }
+        }
+        .top-login i{
+            padding: 0;
+            border: none;
+            color: #5a5a5a;
+            margin: 0px 15px;
+            background-color: transparent;
+            transition: 0.3s all ease-in-out;
+            &:hover{
+                color:#0000fe;
+            }
+        }
+
+        
+    }
+
+}
