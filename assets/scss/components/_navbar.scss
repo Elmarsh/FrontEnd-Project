@@ -24,10 +24,9 @@ body{
        .navbar-nav{
            &>li{
              margin-right: 55px;
-             font-family: "Roboto";
-             
+             font-family: "Roboto"; 
            }
-           
+          
            a{
            
              font-weight: 700;
@@ -49,6 +48,7 @@ body{
              font-size: 18px;
              font-weight: 700;
              position: absolute;
+             color: $secondary-color;
             }
  
          }
@@ -102,55 +102,3 @@ body{
    }
  }
  
-
-// .navbar{
-//     background-color: white;
-//     .navbar-brand{
-//         img{
-//             max-width: 150px;
-//         }
-//     }
-
-//     .navbar-nav{
-//         .nav-item{
-//             .nav-link{
-                
-//             }
-//         }
-//     }
-
-//     .cart-login{
-//         list-style: none;
-//         .top-cart{
-//             border-right: 1px solid #d9d9d9;
-//             margin-right: 2px;
-//              i{
-//                 font-size: 18px;
-//                 padding: 0;
-//                 border: none;
-//                 color: #5a5a5a;
-//                 margin: 0px 15px;
-//                 background-color: transparent;
-//                 transition: 0.3s all ease-in-out;
-//                 &:hover{
-//                     color:$primary-color;
-//                 }
-//             }
-//         }
-//         .top-login i{
-//             font-size: 18px;
-//             padding: 0;
-//             border: none;
-//             color: #5a5a5a;
-//             margin: 0px 15px;
-//             background-color: transparent;
-//             transition: 0.3s all ease-in-out;
-//             &:hover{
-//                 color:$primary-color
-//             }
-//         }
-
-        
-//     }
-
-// }
