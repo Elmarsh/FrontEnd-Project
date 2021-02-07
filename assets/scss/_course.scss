@@ -180,3 +180,20 @@
     }
   }
 }
+$breakpoint-tablet: 770px;
+
+@media (max-width: $breakpoint-tablet) {
+    .item-box {
+        max-width: 406px;
+        margin: 20px auto;
+    }
+}
+
+$breakpoint-tablet: 987px;
+
+@media (max-width: $breakpoint-tablet) {
+    .item-box {
+        max-width: 400px !important;
+        margin: 20px auto;
+    }
+}
