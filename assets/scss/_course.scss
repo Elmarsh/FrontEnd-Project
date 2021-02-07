@@ -169,31 +169,56 @@
       }
       &:hover {
         box-shadow: -3.285px 20.741px 51px 0px rgba(0, 0, 47, 0.2);
-    }
-    &:hover .img img {
+      }
+      &:hover .img img {
         transform: scale(1.1);
-    }
-    &:hover .course-title h3  {
+      }
+      &:hover .course-title h3 {
         color: $secondary-color;
+      }
     }
-
+    .course-btn {
+      transition: 2s all ease-in-out;
+      a {
+        text-decoration: none;
+        color: #fff;
+        height: 50px;
+        width: 170px;
+        margin: 0 auto;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: $primary-font;
+        line-height: 50px;
+        overflow: hidden;
+        border-radius: 40px;
+        width: 170px;
+        text-align: center;
+        background-color: $primary-color;
+        transition: all 0.5s;
+        &:hover {
+          background-color: $secondary-color;
+        }
+        i {
+          padding-left: 5px;
+        }
+      }
     }
   }
 }
 $breakpoint-tablet: 770px;
 
 @media (max-width: $breakpoint-tablet) {
-    .item-box {
-        max-width: 406px;
-        margin: 20px auto;
-    }
+  .item-box {
+    max-width: 406px;
+    margin: 20px auto;
+  }
 }
 
 $breakpoint-tablet: 987px;
 
 @media (max-width: $breakpoint-tablet) {
-    .item-box {
-        max-width: 400px !important;
-        margin: 20px auto;
-    }
+  .item-box {
+    max-width: 400px !important;
+    margin: 20px auto;
+  }
 }
