@@ -13,6 +13,7 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
+    
 });
 
 $('.blog-carousel').owlCarousel({
