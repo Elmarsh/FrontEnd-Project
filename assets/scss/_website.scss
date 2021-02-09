@@ -1,0 +1,39 @@
+// .blog-carousel{
+//     width: 20px;
+//     height: 5px;
+//     background-color: red;
+// } 
+
+.owl-dots{
+    margin-top: 15px;
+    text-align: center;
+    .owl-dot{
+        width: 28px;
+        height: 5px;
+        margin: 0px 5px;
+        cursor: pointer;
+        border-radius: 30%;
+        display: inline-block;
+        background-color: #ececed;
+        transition: 0.3s all ease-in-out;
+        outline: none;
+        &.active{
+            width: 38px;
+            background-color: #0000fe;
+        }
+    }
+}
+
+#back2Top {
+    width: 45px;
+    right: 15px;
+    z-index: 5;
+    height: 45px;
+    bottom: 20px;
+    display: none;
+    position: fixed;
+    line-height: 45px;
+    background-color: #e3002a;
+    text-align: center;
+    color: #fff;
+  }
